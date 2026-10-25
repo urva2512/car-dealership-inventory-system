@@ -80,3 +80,11 @@ This is a one-time local setup action; it is not run by the application. Sign ou
 
 Once signed in as an admin, use the **Create administrator** panel in the frontend to create additional admin accounts. The backend enforces this with an authenticated admin-only `POST /api/auth/admin` endpoint. It returns the new account's public fields only; no password hash or JWT is returned.
 "# car-dealership-inventory-system" 
+
+## Contribution Note
+
+The Car Dealership Inventory System was designed and developed by **Urva Patel (`urva2512`)**.
+
+During the development of this project, my personal laptop was temporarily unavailable due to repairs. I continued working on the project using a friend's laptop. As a result, some Git commits may appear under the GitHub account **`anij-mehta`**, which was logged in on that device.
+
+Please note that the contributor name displayed for these commits is due to the Git configuration on the borrowed laptop and does not reflect the actual authorship of the project. **All project development and implementation work was carried out by Urva Patel (`urva2512`).**
